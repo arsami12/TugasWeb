@@ -1,0 +1,56 @@
+html{
+	position: relative;
+}
+
+body{
+	margin-bottom: 120px;
+	margin-top: 20px;
+}
+
+body{
+	background: url('../gambar/mm.jpg') no-repeat scroll;
+	background-size: 100% 100%;
+	min-height: 700px;
+}
+.jumbotron img{
+	width: 350px;
+	border: 5px solid #222;
+}
+
+hr{
+	width: 250px;
+	border-top: 4px solid #999;
+}
+
+section {
+	min-height: 600px;
+}
+
+.portfolio{
+	background-color: #eee;
+}
+
+.contact{
+	min-height: 800px;
+}
+
+footer{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 125px;
+	background-color: #333;
+	padding-top: 1px;
+	padding-bottom: 0px;
+}
+
+footer p {
+	color: #aaa;
+	font-size: 1.5em;
+	
+}
+
+footer p i{
+	color: smoke;
+	padding-top: 5px;
+}
