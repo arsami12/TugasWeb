@@ -4,17 +4,27 @@ html{
 
 body{
 	margin-bottom: 120px;
-	margin-top: 20px;
+	margin-top: 30px;
 }
 
-body{
-	background: url('../gambar/mm.jpg') no-repeat scroll;
-	background-size: 100% 100%;
-	min-height: 700px;
+.jumbotron {
+	background-image: url('../gambar/789019.png');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 0 -90px;
+	color: #333;
+	overflow: hidden;
 }
+
 .jumbotron img{
 	width: 350px;
 	border: 5px solid #222;
+	box-shadow:  1px 1px 10px rgba(0,0,0,0.5);
+}
+
+
+.jumbotron h1, .jumbroton p {
+	<!-- text-shadow: 1px 1px 10px rgba(0,0,0,0.5); -->
 }
 
 hr{
@@ -27,11 +37,20 @@ section {
 }
 
 .portfolio{
-	background-color: #eee;
+	background-image: url('../gambar/806837.png');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 0 -90px;
+	color: #333;
+	overflow: hidden;
 }
 
 .contact{
 	min-height: 800px;
+	background-image: url('../gambar/699997.png');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 0 -110px;
 }
 
 footer{
